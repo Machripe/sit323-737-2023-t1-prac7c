@@ -1,0 +1,10 @@
+version: '1'
+services:
+    web-a:
+        image: machripe/node-web-app
+        ports:
+            - 44444:8080
+    web-b:
+        image: machripe/node-web-app
+        ports:
+            - 44444:8080
